@@ -1,0 +1,140 @@
+/*
+Theme Name:     Sydney-child
+Theme URI:      
+Description:    Sydney child theme.
+Author:         Briar
+Author URI:     
+Template:       sydney
+Version:        0.5.5
+*/
+
+.c-team__photo img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+#sidebar-footer {
+    background-color: #fff;
+}
+
+#sidebar-footer .container {
+    width: 90%!important;
+    margin: 0 auto;
+
+}
+
+#sidebar-footer .widget-title {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: rgb(68, 63, 63);
+    display: inline-block;
+    font-size: 32px;
+}
+
+#sidebar-footer .widget-title::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    margin-left: -25px;
+    background-color: #d65050;
+}
+
+#sidebar-footer .social-menu-widget {
+    margin: 0;
+}
+
+.post-533 .title-post  {
+    margin-bottom: 50px;
+    position: relative;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: rgb(68, 63, 63);
+    display: inline-block;
+    font-size: 32px;
+
+}
+
+.post-533 .title-post::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    margin-left: -25px;
+    background-color: #d65050;
+}
+
+.c-contact-page .fa {
+    color: #d65050;
+    margin-right: 15px;
+}
+
+.c-project__title {
+    font-size: 18px!important;
+}
+
+.c-project__header {
+    margin-bottom: 10px!important;
+}
+
+.c-project {
+    margin-bottom: 35px;
+}
+
+.social-menu-widget a {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: 50% 50% no-repeat;
+    background-size: 100% auto;
+}
+
+.social-menu-widget a:before {
+    display: none;
+}
+
+.social-menu-widget a[href*="facebook.com"] {
+    background-image: url(/assets/f8ebc923764c-facebook.svg);
+}
+.social-menu-widget a[href*="twitter.com"] {
+    background-image: url(/assets/407e979335e3-twitter.svg);
+}
+.social-menu-widget a[href*="instagram.com"] {
+    background-image: url(/assets/712a622dc300-instagram.svg);
+}
+.social-menu-widget a[href*="linkedin"] {
+    background-image: url(/assets/ffdfed3450e7-linkedin.svg);
+}
+
+.c-about strong {
+    color: #4a4a4a;
+}
+
+.h-gray {
+    font-size: 14px;
+}
+
+.h-gray strong {
+    display: block;
+    font-size: 16px;
+}
+
+.c-downsizing .siteorigin-widget-tinymce {
+    max-width: 545px;
+    margin: 0 auto;
+}
+
+.site-footer {
+    color: #cdcdcd;
+}

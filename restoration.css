@@ -1,0 +1,28 @@
+/* Static replacements for Sydney's retired runtime; original styles retained. */
+#slideshow {height:100vh; min-height:480px; position:relative;}
+#slideshow .slides-container,#slideshow .slide-item {height:100%;width:100%;}
+#slideshow .slide-item {position:relative;display:block;background-position:50% 20px;}
+#slideshow .mobile-slide {display:none;}
+.text-slider {animation:none;}
+.btn-menu {padding:0;border:0;background:transparent;}
+.site-header.float-header {position:fixed;}
+.missing-archive-image {display:none;}
+.portrait-placeholder {display:flex;align-items:center;justify-content:center;width:133px;height:133px;box-sizing:border-box;background:#f0f0f0;border:1px solid #c5c5c5;color:#443f3f;font-size:14px;line-height:1.4;text-align:center;padding:12px;}
+.c-contact-page .textwidget > p:has(> strong),.c-contact-page .contact-address {clear:both;}
+@media(max-width:1024px){
+ #mainnav {display:none;clear:both;width:100%;background:#1c1c1c;}
+ #mainnav.is-open {display:block;}
+ #mainnav ul {float:none;}
+ #mainnav li {display:block;float:none;padding:8px 20px;}
+ #mainnav ul li a {line-height:1.5;float:none!important;display:block;width:100%;}
+ .btn-menu {display:block;}
+}
+@media(max-width:767px){
+ #slideshow {height:500px;min-height:0;}
+ #slideshow .slides-container,#slideshow .slide-item {height:100%!important;}
+ #slideshow .slide-item {background-image:url('/assets/c30329e740cd-main-bg.jpg')!important;background-attachment:scroll;background-position:center;}
+ #slideshow .slide-inner {padding:0 15px;top:50%!important;}
+ .text-slider .maintitle {font-size:32px!important;line-height:1.25!important;}
+ .text-slider .subtitle {font-size:18px!important;line-height:1.5!important;}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;}}
